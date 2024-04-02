@@ -41,7 +41,4 @@ def get_graph(entered_year):
 if __name__ == '__main__':
     app.run_server() 
 
-    # After running the app, get the generated HTML and save it to a file
-    html_content = app.index_string()
-    with open("Visualization_dash_app.html", "w") as file:
-        file.write(html_content)
+ 
